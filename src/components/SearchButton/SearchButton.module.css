@@ -1,0 +1,7 @@
+.searchButton {
+  padding: 6px;
+  width: 28px;
+  height: 28px;
+  background-color: var(--background-color);
+  border-radius: 50%;
+}

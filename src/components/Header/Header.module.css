@@ -1,0 +1,35 @@
+.header {
+  padding: 12px 0 9px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 50px;
+}
+
+.headerLogo {
+  margin-right: 49px;
+}
+
+.headerNav {
+  margin-right: 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 83px;
+}
+
+.headerNav a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+
+.headerButton {
+  margin-right: 9px;
+}
+
+.searchInput {
+  margin-right: 9px;
+  padding: 5px 14px;
+  height: 29px;
+  background-color: var(--background-color);
+}
