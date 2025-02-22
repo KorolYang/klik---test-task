@@ -30,8 +30,9 @@ input {
 
 @font-face {
   font-family: Roboto;
-  src: url("./assets/fonts/roboto-regular.woff2") format("woff2"),
-    url("./assets/fonts/roboto-regular.woff") format("woff");
+  src:
+    url('./assets/fonts/roboto-regular.woff2') format('woff2'),
+    url('./assets/fonts/roboto-regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -39,8 +40,9 @@ input {
 
 @font-face {
   font-family: Roboto;
-  src: url("./assets/fonts/roboto-medium.woff2") format("woff2"),
-    url("./assets/fonts/roboto-medium.woff") format("woff");
+  src:
+    url('./assets/fonts/roboto-medium.woff2') format('woff2'),
+    url('./assets/fonts/roboto-medium.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -52,6 +54,6 @@ input {
 }
 
 body {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 400;
 }

@@ -4,4 +4,5 @@
   height: 28px;
   background-color: var(--background-color);
   border-radius: 50%;
+  cursor: pointer;
 }

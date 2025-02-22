@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  min-height: 480px;
+}
+
+.cardImage {
+  margin-bottom: 23px;
+  width: 380px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.cardTitle {
+  margin-bottom: 14px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.cardDescription {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+
+.cardButton {
+  margin-top: auto;
+  align-self: flex-start;
+}

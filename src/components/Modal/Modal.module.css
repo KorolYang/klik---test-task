@@ -1,0 +1,67 @@
+.modal {
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0000004d;
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+}
+
+.modalEnter {
+  opacity: 0;
+}
+
+.modalEnterActive {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+}
+
+.modalExit {
+  opacity: 1;
+}
+
+.modalExitActive {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.modalContent {
+  position: relative;
+  padding: 20px 30px;
+  background-color: #ffffff;
+  min-width: 250px;
+  width: 550px;
+}
+
+.modalContentEnter {
+  transform: scale(0);
+}
+
+.modalContentEnterActive {
+  transform: scale(1);
+  transition: transform 300ms ease-in-out;
+}
+
+.modalContentExit {
+  transform: scale(1);
+}
+
+.modalContentExitActive {
+  transform: scale(0);
+  transition: transform 300ms ease-in-out;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
